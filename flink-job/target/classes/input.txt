@@ -1,0 +1,2 @@
+Apache Flink is a framework for stateful computations.
+Flink is open-source.
