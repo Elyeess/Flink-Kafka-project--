@@ -124,14 +124,14 @@ Ce projet illustre la configuration d'un pipeline entre Apache Flink et Kafka po
    ./bin/flink run -c org.example.Main target/cryptoproducer-1.0-SNAPSHOT.jar
 
    ### Analyse des Cryptomonnaies
-
+```bash
 #### Analyse pour la monnaie : **Chainlink**
 - **Prix moyen** : 30.26 USD
 - **Volume moyen** : 546,804,478.36 USD
 - **Volume total** : 5,468,044,783.60 USD
 - **Nombre d'enregistrements** : 10
 
----
+----------------------------------------
 
 #### Analyse pour la monnaie : **TRON**
 - **Prix moyen** : 0.30 USD
@@ -139,7 +139,7 @@ Ce projet illustre la configuration d'un pipeline entre Apache Flink et Kafka po
 - **Volume total** : 1,743,843,626.77 USD
 - **Nombre d'enregistrements** : 7
 
----
+--------------------------------------
 
 #### Analyse pour la monnaie : **Akash Network**
 - **Prix moyen** : 3.75 USD
@@ -147,7 +147,7 @@ Ce projet illustre la configuration d'un pipeline entre Apache Flink et Kafka po
 - **Volume total** : 22,267,107.24 USD
 - **Nombre d'enregistrements** : 12
 
----
+--------------------------------------
 
 #### Analyse pour la monnaie : **Zilliqa**
 - **Prix moyen** : 0.02 USD
@@ -155,7 +155,7 @@ Ce projet illustre la configuration d'un pipeline entre Apache Flink et Kafka po
 - **Volume total** : 105,634,826.64 USD
 - **Nombre d'enregistrements** : 7
 
----
+-------------------------------------
 
 #### Analyse pour la monnaie : **Autre Monnaie**
 - **Prix moyen** : 2.39 USD
