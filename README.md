@@ -15,6 +15,7 @@ Ce projet montre comment configurer un pipeline entre Apache Flink et Kafka pour
    - Entrez le `groupId` (par exemple, `org.example`).
    - Entrez le `artifactId` (par exemple, `flink-job`).
 5. Le répertoire du projet sera créé avec ce nom.
+![vsss](https://github.com/user-attachments/assets/bd3a402c-f68b-450b-bcfc-cf3a9c55393d)
 
 ---
 
@@ -43,11 +44,11 @@ cd /home/elyes/flink/flink-1.20.0
 # Accédez au tableau de bord :
 # Ouvrez votre navigateur et accédez à http://localhost:8081.
 
----
+-------------------------------
 
 ## Configuration de Kafka
 
-### Étapes pour Configurer Kafka
+## Étapes pour Configurer Kafka
 # Démarrez ZooKeeper dans un terminal :
 C:\kafka\bin\windows\zookeeper-server-start.bat C:\kafka\config\zookeeper.properties
 
@@ -61,18 +62,18 @@ C:\kafka\bin\windows\kafka-topics.bat --create --topic crypto_prices --bootstrap
 
 ## Compilation et Exécution du Projet
 
-### Étapes pour Compiler et Exécuter le Projet
+## Étapes pour Compiler et Exécuter le Projet
 # Nettoyez et compilez le projet :
 mvn clean install
 
 # Exécutez la classe principale :
 mvn exec:java
 
-### Consommation des Messages
+## Consommation des Messages
 # Observez les logs pour vérifier que les messages sont envoyés au topic Kafka :
 C:\kafka\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic crypto_prices --from-beginning
 
-### Exécution avec un Nouveau pom.xml
+## Exécution avec un Nouveau pom.xml
 ```bash
 # Recompilez le projet :
 mvn clean package
