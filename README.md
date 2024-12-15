@@ -164,5 +164,15 @@ Ce projet illustre la configuration d'un pipeline entre Apache Flink et Kafka po
 - Volume moyen : 1,658,640,673.85 USD
 - Volume total : 18,245,047,412.35 USD
 - Nombre d'enregistrements : 11
+```
+
+#### Dépendances :
+- **Flink** : 1.20
+- **Kafka** : 3.5.1
+- **Java** : 8
+
+#### Auteur : 
+- **MOHAMED ELYES MAALEL**
+
 
    
