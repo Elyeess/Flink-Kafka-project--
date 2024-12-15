@@ -1,6 +1,6 @@
 # Flink-Kafka Project
 
-Ce projet montre comment configurer un pipeline entre Apache Flink et Kafka pour traiter des flux de données en temps réel.
+Ce projet illustre la configuration d'un pipeline entre Apache Flink et Kafka pour le traitement en temps réel de flux de données, notamment des données de prix de cryptomonnaies obtenues depuis l'API CoinCap (https://api.coincap.io) et publiées sur le topic Kafka "crypto_prices".
 
 ---
 
@@ -101,6 +101,9 @@ Ce projet montre comment configurer un pipeline entre Apache Flink et Kafka pour
    C:\kafka\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic crypto_prices --from-beginning
    ```
 
+   ![consumer kafka](https://github.com/user-attachments/assets/217bf9ef-1f57-42ae-b991-77af53a8a22a)
+
+
 ---
 
 ## Exécution avec un Nouveau `pom.xml`
@@ -113,7 +116,10 @@ Ce projet montre comment configurer un pipeline entre Apache Flink et Kafka pour
    ```bash
    mvn exec:java "-Dexec.mainClass=org.example.CryptoDataProducer"
    ```
-3. **Exécutez le Job Flink :**
+   ![consumer](https://github.com/user-attachments/assets/0e34cda5-fe74-43e8-bc3e-cf67dac4f792)
+   
+
+4. **Exécutez le Job Flink :**
    ```bash
    ./bin/flink run -c org.example.Main target/cryptoproducer-1.0-SNAPSHOT.jar
    
