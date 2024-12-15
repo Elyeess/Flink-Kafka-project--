@@ -58,6 +58,7 @@ Ce projet montre comment configurer un pipeline entre Apache Flink et Kafka pour
      ```
      http://localhost:8081
      ```
+![flnik host](https://github.com/user-attachments/assets/65a1954a-4b44-450d-8223-3bcdfca19ba3)
 
 ---
 
